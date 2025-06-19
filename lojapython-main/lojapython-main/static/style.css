@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.navbar {
+    width: 100%;
+    height: 15%;
+    background-color: #eee3fc;
+    display: flex;
+    align-items: center;
+}
+
+#img-logo {
+    display: flex;
+    width: 70%;
+    padding-left: 5vw;
+}
+
+.nav-link {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 15vw;
+    color: #fcf7fb;
+    text-decoration: none !important;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+#title {
+    font-family: Poppins;
+    font-weight: lighter;
+    font-size: 8vw;
+    display: flex;
+    position: relative;
+}
+
+#ofertas {
+    background-color: #fcf7fb;
+}
+
+.product-img {
+    border-radius: 5px;
+}
+
+#product-big {
+    width: 32vh;
+    height: 32vh;
+}
+
+#product-small {
+    width: 20vh;
+    height: 20vh;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#product-price {
+    font-family: Verdana;
+    font-size: 6vw;
+    color: #522D58;
+    text-decoration: underline;
+}
+
+#amigurumi {
+    background-color: #AE92B5;
+}
+
+.title-light {
+    color: #F7EEFA;
+}
+
+.footer {
+    height: 15vh;
+    width: 100%;
+    background-color: #F7EEFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.login-button {
+    border-radius: 38px;
+    padding: 10px 18px 10px 18px;
+    background-color: #F6E1FF;
+    border: none;
+    color: #522D58;
+}
+
+table {
+    width: 100%;
+    margin-top: 3vh;
+    background-color: #fff;
+}
+
+th {
+    font-family: Poppins;
+    background-color: #AE92B5;
+    color: #522D58;
+    padding: 2vh;
+    text-align: center;
+    border: 1px solid #522D58;
+    font-size: 4vw;
+}
+td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #AE92B5;
+    font-family: Poppins;
+}
+a{
+    text-decoration: none !important;
+}
